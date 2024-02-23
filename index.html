@@ -7,20 +7,75 @@
 </head>
 
 <style>
-    body{
-        background-color: #e7d0e5;
-    }
-    h1{
-        text-align: center;
-        color: #df539e;
-    }
-    h2{
-        color: #df539e;
-    }
-    .links{
-        display: flex;
-        justify-content: space-around;
-    }
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #fde8e8; /* Rosa claro */
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #ffcccc; /* Rosa medio */
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  h1 {
+    margin: 0;
+    color: #333; /* Color de texto oscuro */
+  }
+
+  main {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  h2 {
+    color: #ff99cc; /* Rosa oscuro */
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links a {
+    color: #ff6699; /* Rosa medio */
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #fff; /* Blanco */
+    border: 1px solid #ff6699; /* Rosa medio */
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .links a:hover {
+    background-color: #ff6699; /* Rosa medio */
+    color: #fff; /* Blanco */
+  }
+
+  table {
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff; /* Blanco */
+    border: 2px solid #ff99cc; /* Rosa oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ff99cc; /* Rosa oscuro */
+    color: #333; /* Color de texto oscuro */
+  }
+
+  th {
+    background-color: #ff99cc; /* Rosa oscuro */
+    color: #fff; /* Blanco */
+  }
 </style>
 
 <body>
