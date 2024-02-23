@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/tienda-icon.png" />
+    <title>Contacto</title>
+  </head>
+
+  <style>
+    body {
+      background-color: #f9efe1;
+    }h3, h4{
+        font-family: cursive;
+        color: #d09a4e;
+    }
+    h5{
+      font-family: cursive;
+    }
+    
+    label{
+        font-family: cursive;
+        color: #000;
+        font-size: 10px;
+    }
+    
+    .formulario{
+        max-width: 300px; 
+    }
+    .formulario label {
+    display: block;
+    margin-bottom: 5px;
+    }
+.formulario input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.formulario button[type="submit"]:hover {
+    background-color: #d09a4e;
+}
+.info-contacto{
+    color: #d09a4e;
+}
+  </style>
+
+<body>
+    <main>
+        <section>
+            <h3>¿Necesitas más información sobre nuestros productos?</h3>
+            <h4>Llena tu información y nos pondremos en contacto contigo<h4>
+                <div class="formulario">
+                    <label>Nombre y Apellido:</label>
+                    <input type="text" required/><br>
+                    <label>Teléfono:</label>
+                    <input type="tel" required/><br>
+                    <label>Correo:</label>
+                    <input type="email" required/><br>
+                    <label>Consulta o mensaje:</label>
+                    <input type="text" required/><br>
+                    <button type="submit">ENVIAR</button>
+                </div>
+        </section>
+
+        <section>
+          <h3>O contactanos:</h3>
+          <div>
+          <h5>Teléfono:</h5>
+          <a href="tel:+593983158128" class="info-contacto">+593 98 3158 128</a>
+          <h5>Correo:</h5>
+          <a href="mailto:natunutritiva@yup.coom" class="info-contacto">natunutritiva@yup.coom</a>
+        </div>
+        </section>
+
+        <section>
+          <h3>Visitanos:</h3>
+          <div>
+          <h5>Tienda Física: Av. 10 de Agosto y Colon</h5>
+        </div>
+        </section>
+    </main>
+    
+</body>
+</html>

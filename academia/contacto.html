@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/academia-icon.png" />
+    <title>Contactos</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+
+  section {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  h4 {
+    margin-top: 20px;
+  }
+h2{
+    text-align: center;
+}
+  a {
+    color: #45a049;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Formulario de inscripción</h2>
+    </header>
+
+    <section>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+    
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" required><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono" required><br>
+    
+            <label for="curso">Curso de interés:</label><br>
+            <select id="curso" name="curso" required>
+                <option value="">Seleccione un curso</option>
+                <option value="ingles">Inglés</option>
+                <option value="frances">Francés</option>
+                <option value="espanol">Portugues</option>
+                <option value="italiano">Italiano</option>
+                <option value="chino">Aleman</option>
+            </select><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+        <section>
+        <h4>Correo:</h4>
+        <a href="mailto:polyglotacademy@yup.com">polyglotacademy@yup.com</a>
+        <h4>Teléfono:</h4>
+        <a href="tel:+593983158128">+593 98 3158 128</a>
+    </section>
+</body>
+</html>

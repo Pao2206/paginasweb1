@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/agencia-icon.png" />
+    <title>Contacto</title>
+</head>
+
+<style>
+    body{
+      background-color: #d1eefa;
+    }
+    h3, h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #2393f6;
+    }
+    h5{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #000;
+        font-size: 10px;
+    }
+    
+    .formulario{
+        max-width: 300px; 
+    }
+    .formulario label {
+    display: block;
+    margin-bottom: 5px;
+    }
+.formulario input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.formulario button[type="submit"]:hover {
+    background-color: #2393f6;
+}
+.info-contacto{
+  color: #2393f6;
+}
+  </style>
+
+<body>
+    <main>
+        <section>
+            <h3>¿Necesitas más información o quieres hacer una reserva?</h3>
+            <h4>Llena tu información y nos pondremos en contacto contigo<h4>
+                <div class="formulario">
+                    <label>Nombre y Apellido:</label>
+                    <input type="text" required/><br>
+                    <label>Teléfono:</label>
+                    <input type="tel" required/><br>
+                    <label>Correo:</label>
+                    <input type="email" required/><br>
+                    <label>Destino:</label>
+                    <input type="text" required/><br>
+                    <button type="submit">ENVIAR</button>
+                </div>
+        </section>
+
+        <section>
+          <h3>O contactanos:</h3>
+          <div>
+          <h5>Teléfono:</h5>
+          <a href="tel:+593983158128" class="info-contacto">+593 98 3158 128</a>
+          <h5>Correo:</h5>
+          <a href="mailto:aventuras.sl@yup.coom" class="info-contacto">aventuras.sl@yup.coom</a>
+        </div>
+        </section>
+
+        <section>
+          <h3>Visitanos:</h3>
+          <div>
+          <h5>Unica agencia: Av. Amazonas y Colon - Edificio Amazonas Parc.</h5>
+        </div>
+        </section>
+    </main>
+    
+</body>
+</html>
